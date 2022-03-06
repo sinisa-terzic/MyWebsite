@@ -2,6 +2,10 @@ body {
   font-size: sans-serif;
 }
 
+:root {
+  --bg-color: #6ba2d9;
+}
+
 #recent img {
   width: 100%;
   object-fit: cover;
