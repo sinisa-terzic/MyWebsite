@@ -2,6 +2,13 @@ body {
   font-size: sans-serif;
 }
 
+#recent img {
+  width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  background-color: var(--bg-color);
+}
+
 /*  --- HEADER ---  */
 header {
   color: #878187;
@@ -80,6 +87,9 @@ header .active:active {
 }
 
 @media screen and (max-width: 395px) {
+  #h1 {
+    font-size: 7vw;
+  }
   .hero-text {
     font-size: 3.8vw;
   }
