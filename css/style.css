@@ -1,0 +1,103 @@
+body {
+  font-size: sans-serif;
+}
+
+/*  --- HEADER ---  */
+header {
+  color: #878187;
+}
+
+header a {
+  margin-left: 30px;
+  color: #878187;
+}
+
+header .active:link,
+header .active:visited {
+  color: #000;
+}
+header .active:hover,
+header .active:active {
+  color: #000;
+}
+
+#menu-icon {
+  width: 15px;
+}
+
+/*  --- HERO SECTION ---  */
+#hero-section {
+  height: 650px;
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero-text {
+  background-color: #31c68b;
+  font-size: 28px;
+}
+
+@media only screen and (max-width: 1399px) {
+  .hero-text {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero-text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #hero-section {
+    height: 400px;
+  }
+  .hero-text {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #hero-section {
+    height: 350px;
+  }
+  .hero-text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #hero-section {
+    height: 200px;
+  }
+  .hero-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .hero-text {
+    font-size: 3.8vw;
+  }
+}
+
+/*  --- FOOTER ---  */
+#footer {
+  background: #111;
+}
+
+footer .footer-top {
+  background: #222;
+}
+
+.footer-links ul li {
+  border-top: 1px solid #353535;
+}
+
+.footer-links ul li:last-child {
+  border-bottom: 1px solid #353535;
+}
