@@ -75,7 +75,7 @@ header .active:active {
 @media only screen and (max-width: 991px) {
   header a {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     font-size: 1.2rem;
   }
 
